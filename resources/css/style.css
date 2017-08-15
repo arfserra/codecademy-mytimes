@@ -6,6 +6,9 @@ header {
 	font-weight: bold;
 	display: flex;
 	align-items: center;
+	padding-bottom: 10px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid DimGray;
 }
 
 header img {
@@ -18,7 +21,7 @@ header p {
 	margin-left: 10px;
 }
 
-nav {
+header nav {
 	margin-left: auto;
 }
 
@@ -28,7 +31,7 @@ nav li {
 	margin: 10px;
 }
 
-nav li:last-child {
+header nav li:last-child {
 	margin-right: 40px;
 }
 
@@ -71,6 +74,7 @@ section {
 	justify-content: space-around;
 	align-content: center;
 	font-family: Georgia;
+	margin-bottom: 70px;
 }
 
 .column {
@@ -128,6 +132,7 @@ section {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .small ul {
@@ -143,4 +148,33 @@ section {
 	padding: 10px;
 	border-bottom: 1px solid DimGray;
 }
+
+
+/* Footer */
+footer {
+	background-color: MediumAquamarine;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	align-items: center;
+	justify-content: center;
+}
+
+footer div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: -15px;
+}
+
+footer h5 {
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
 
