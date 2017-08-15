@@ -32,6 +32,19 @@ nav li:last-child {
 	margin-right: 40px;
 }
 
+.news {
+	font-size: 17px;
+	color: black;
+}
+
+.headline {
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	height: 300px;
+	display: flex;
+}
+
 /* Content */
 
 div, section {
@@ -42,6 +55,7 @@ section {
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
+	font-family: Georgia;
 }
 
 .column {
@@ -67,16 +81,17 @@ section {
 
 #mother {
 	background-image: url("../images/img-story-main.png");
+	font-size: 40px;
 	height: 300px;
 }
 
-#mother {
-	background-image: url("../images/img-story-main.png");
+#earth {
+	background-image: url("../images/img-story-2.png");
 	height: 300px;
 }
 
-#mother {
-	background-image: url("../images/img-story-main.png");
+#camera {
+	background-image: url("../images/img-story-3.png");
 	height: 300px;
 }
 
